@@ -72,11 +72,11 @@ Sentiment categories:
 
 ---
 
-## Example Backtesting Output
+## Backtesting Output
 
 The system can simulate trading decisions based on the generated signals.
 Table Screenshot
-![Backtesting Output](images/backtest_output.png)
+![Backtesting Output](Images/backtesting_table.png)
 
 ---
 
@@ -112,10 +112,10 @@ The system generates a **technical analysis dashboard** that includes:
 * Volume activity
 * AI tactical briefing
 
-Example visualization:
+Sample visualization:
 ### MSFT Example
 
-![MSFT Analysis](images/msft_dashboard.png)
+![MSFT Analysis](Images/msft_result.png)
     
 ---
 
@@ -128,11 +128,36 @@ by the system during stock analysis.
 
 ### Apple (AAPL)
 
-![AAPL Dashboard](images/aapl_dashboard.png)
+![AAPL on 13 march 6:10 PM](Images/aapl_before.png)
+Based on the computed indicators and sentiment analysis, the model predicted a
+short-term downward movement
+After market opening, the stock price declined from $255.76 to $250.93, confirming the
+predicted bearish direction
+![AAPL on 14 march 2:46 AM](Images/aapl_after.png)
+The updated system interface, shown in Figure, provides the final AI reasoning summary
+through the tactical briefing window
 
 ### Microsoft (MSFT)
 
-![MSFT Dashboard](images/msft_dashboard.png)
+![MSFT on 13 march 6:13 PM](Images/msft_before.png)
+Based on the technical indicators and FinBERT sentiment analysis, the model predicted a dodwnard movement
+After market opening, the stock price declined from $401.86 to $395.55, confirming the
+predicted bearish direction
+![MSFT on 14 march 2:48 PM](Images/msft_after.png)
+The updated system interface, shown in Figure, provides the final AI reasoning summary
+through the tactical briefing window
+
+### Alphabet Inc Class C (Google) (GOOGL)
+
+During the Analysis, the technical indicators
+continued to indicate a bearish trend. However, the sentiment analysis module detected positive
+news signals associated with Alphabet.
+As a result, the final recommendation shifted from SELL to HOLD, illustrating the importance
+of incorporating sentiment signals alongside traditional technical indicators. This example
+demonstrates how the multi-modal framework allows the system to balance quantitative market
+signals with qualitative information derived from financial news
+![GOOGL_TREND](Images/googl.png)
+
 # Technologies Used
 
 * Python
@@ -204,16 +229,9 @@ The system will then:
 
 ---
 
-# Project Limitations
+# Project Future improvements
 
 This project is an experimental prototype.
-
-Current limitations include:
-
-* limited historical backtesting
-* reliance on external APIs
-* no deep learning forecasting model yet
-* no portfolio optimization module
 
 Future improvements may include:
 
@@ -221,7 +239,7 @@ Future improvements may include:
 * reinforcement learning trading agents
 * portfolio risk management
 * automated backtesting engine
-
+* automated purchase and sell with target and stop loss hit.
 ---
 
 # Disclaimer
