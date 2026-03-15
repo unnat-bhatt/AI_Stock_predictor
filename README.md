@@ -31,7 +31,7 @@ The final output is a **BUY / SELL / HOLD prediction with reasoning**.
 The system follows a multi-stage pipeline where technical indicators,
 news sentiment, and AI reasoning combine to produce trading signals.
 
-![System Architecture](images/system_architecture.png)
+![System Architecture](Images/system_architecture.png)
 
 The analysis pipeline consists of three major components:
 
