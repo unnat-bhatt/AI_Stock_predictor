@@ -121,31 +121,44 @@ Sample visualization:
 
 # Example Output
 
-## Example Output
-
 Below are examples of the visualization dashboard generated
 by the system during stock analysis.
 
 ### Apple (AAPL)
 
 ![AAPL on 13 march 6:10 PM](Images/aapl_before.png)
+
+
 Based on the computed indicators and sentiment analysis, the model predicted a
 short-term downward movement
 After market opening, the stock price declined from $255.76 to $250.93, confirming the
 predicted bearish direction
+
+
 ![AAPL on 14 march 2:46 AM](Images/aapl_after.png)
+
+
 The updated system interface, shown in Figure, provides the final AI reasoning summary
 through the tactical briefing window
+
 
 ### Microsoft (MSFT)
 
 ![MSFT on 13 march 6:13 PM](Images/msft_before.png)
+
+
 Based on the technical indicators and FinBERT sentiment analysis, the model predicted a dodwnard movement
 After market opening, the stock price declined from $401.86 to $395.55, confirming the
 predicted bearish direction
+
+
 ![MSFT on 14 march 2:48 PM](Images/msft_after.png)
+
+
 The updated system interface, shown in Figure, provides the final AI reasoning summary
 through the tactical briefing window
+
+---
 
 ### Alphabet Inc Class C (Google) (GOOGL)
 
@@ -156,6 +169,7 @@ As a result, the final recommendation shifted from SELL to HOLD, illustrating th
 of incorporating sentiment signals alongside traditional technical indicators. This example
 demonstrates how the multi-modal framework allows the system to balance quantitative market
 signals with qualitative information derived from financial news
+
 ![GOOGL_TREND](Images/googl.png)
 
 # Technologies Used
@@ -239,7 +253,7 @@ Future improvements may include:
 * reinforcement learning trading agents
 * portfolio risk management
 * automated backtesting engine
-* automated purchase and sell with target and stop loss hit.
+* Implement automated trade execution with dynamic target price and stop-loss mechanisms to enable systematic buy and sell operations
 ---
 
 # Disclaimer
